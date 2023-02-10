@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    
+    <title>Type4 Technology Group</title>
+    <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/564x/57/04/76/570476e6b0b0ece608d2b0145dd0ae6d.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Chakra+Petch&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Chakra+Petch&family=Press+Start+2P&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="first.css">
+</head>
+
+<body style="background-image: url('https://i.pinimg.com/originals/77/ca/a3/77caa32884d735d439ade45ba37feaf2.gif');">
+    <div style="float:left;">
+        <img id="logopic" src="https://i.pinimg.com/564x/57/04/76/570476e6b0b0ece608d2b0145dd0ae6d.jpg"></div>
+        <div style="float:left;">
+        <label id="logo"> Type4 Technology Group</label>
+    </div>
+    <nav>
+        <a class="active" href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="products.html">PRODUCTS</a>
+        <a href="services.html">SERVICES</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+   
+    <script>
+        function changeInput(){
+            var str =document.getElementById("name").value;
+        var words = str.split(" ");
+          for (let i = 0; i < words.length; i++) {
+        words[i] = words[i][0].toUpperCase() + words[i].substr(1);
+    }
+        words.join(" ");
+        var greeting = "Hello" + " " + words +"!"+ " "+"Welcome to our company's website. Feel free to navigate and explore our website to get to know more about company. ENJOY!";
+        var final=document.getElementById('mssg').innerHTML= greeting;
+        }
+
+
+    </script>
+    
+    
+    <p id="demo"></p><br>
+    <center><h1 id="mssg"> Hey! Please type your name below if you would like to continue</h1>
+   <input type="text" id="name"><br><br><br>
+   <button type="button" id= "mybutton" onclick="changeInput()"> CLICK ME </button></center> <br><br><br>
+</body>

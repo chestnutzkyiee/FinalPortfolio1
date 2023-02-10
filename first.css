@@ -1,0 +1,358 @@
+body{
+    margin:0;
+    padding:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+#logopic{
+ height:3.125rem;
+ padding-left: 0.625rem;
+ margin-top: 0.3125rem;
+}
+#logo{
+    color:white;
+    font-weight: bold;
+    font-size:1.25rem;
+    display:flex;
+    margin-top:  1.125rem;
+    margin-left:  0.3125rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+*,
+*:before,
+*:after{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+}
+#logosection{
+    float: left;
+}
+a{
+    margin-left: 1.25rem;
+    margin-top:  1.25rem;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    letter-spacing: 0.03125rem;
+    font-size: 1.125rem;
+
+}
+a:after{
+    content:"";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 0.1875rem;
+    width:0%;
+    left:0;
+    bottom: -10px;
+    transition:0.3s;
+}
+a:hover{
+    color:#ffffffff;
+}
+a:hover:after{
+    width:100%;
+}
+.body-text{
+    color:white;
+}
+#mssg{
+    font-size:  3.125rem;
+    color:white;
+    padding-top: 3.75rem;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 5px 5px 5px black;
+}
+#start{
+    font-size: 0.9375rem;
+    background-color: #5D3FD3;
+    height:6.25rem;
+    width: 31.25rem;
+    padding: 1.5625rem;
+    font-family:'Press Start 2P', cursive;
+    letter-spacing: 0.5px;
+    box-shadow: 10px 10px #FF1493;
+}
+#name{
+   height:  3.125rem;
+   width:  31.25rem;
+   color:white;
+   font-size:  2.5rem;
+   background-color: #5D3FD3;
+   margin-top:  12.5rem;
+   font-family: 'Press Start 2P', cursive;
+}
+button{
+    color:white;
+    background-color:#AA336A;
+    height:  3.125rem;
+    width:  18.75rem;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.9375rem;
+}
+#demo{
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+    padding-top:  5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 5px 5px  blue;
+}
+
+
+
+/*about*/
+#qs{
+    padding-top: 3.125rem;
+    margin-left:1.25rem;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+#f1{
+    height: 25rem;
+    width:18rem;
+    margin-left: 5rem;
+    padding-top: 6.25rem;
+    filter:drop-shadow(10px 10px 10px  grey)
+}
+#ftext{
+    margin-left:3.125rem;
+    padding-top:3.125;
+    color:white;
+    font-size:1.5rem;
+    font-family:'Chakra Petch', sans-serif;
+}
+#ltext{
+    font-size: 1.5rem;
+    color:white;
+    font-family:'Chakra Petch', sans-serif;
+    margin-left:10rem;
+    padding-top:9.375rem;
+}
+#s2{
+    height:25rem;
+    padding-top: 6.25rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    filter:drop-shadow(10px 10px 10px  blue)
+}
+#t3{
+    height:31.25rem;
+    width:18.75rem;
+    padding-top:6.25rem;
+    margin-left:5rem;
+    filter:drop-shadow(10px 10px 10px green);
+}
+#text3{
+    color:white;
+    font-family:'Chakra Petch', sans-serif;
+    font-size: 1.5rem;;
+    margin-left:3.125rem;
+    padding-top: 1.25rem;
+}
+#p4{
+    padding-top:6.25rem;
+    margin-right: 7rem;
+    margin-left: 3rem;
+    filter:drop-shadow(10px 10px 10px white);
+}
+footer{
+    color:white;
+    background-color: black;
+    height:5 rem;
+}
+#foot{
+    padding-top: 0.9375rem;
+}
+#ogfoot{
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 1rem ;
+    height:3rem ;
+}
+
+
+/*product*/
+#intro{
+    color:white;
+    padding-top:21.875rem;
+    padding-left: 3.125rem;
+    font-size: 3.125rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+#intro1{
+    color:white;
+    font-size: 1.25rem;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-left: 3.125rem;
+}
+#loop{
+    padding-top: 6.25rem;
+    filter:drop-shadow(10px 10px 10px white);
+    cursor: pointer;
+    height:auto;
+    padding-left: 3.125rem;
+}
+.image{
+    display:block;
+}
+figure{
+    overflow:hidden;
+    margin: 0 10px;
+}
+#prod{
+    color:white;
+    margin-top: 2.5rem;
+    font-family:'Chakra Petch', sans-serif; 
+    padding-left: 12.5rem;
+    font-size:  2.5rem;
+}
+#prodtext{
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 0 0.625rem;
+    display:block;
+    padding-left: 12.5rem;
+   
+}
+#prodtext2{
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 0   0.625rem;
+    display:block;
+    padding-left:  12.5rem;
+}
+#prodtext3{
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 0  0.625rem;
+    display:block;
+    padding-left:  12.5rem;
+    
+}
+
+.image #zoom img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.image #zoom:hover img{
+    transform:scale(1.5);
+}
+.divider{
+    width: 1000px;
+    height: 1px;;
+    background-color: whitesmoke;
+    display:inline-table;
+    vertical-align: middle;
+}
+
+/*services*/
+#service{
+    padding-top:  3.125rem;
+    margin-left: 11.25rem;
+    height: 3.125rem;
+    color:white;
+    font-size: 3.125rem;
+    font-family:'Chakra Petch', sans-serif;
+}
+#demo1{
+    color:white;
+    padding-top: 1.25rem;
+    margin-left: 1.875rem;
+    font-size:  2.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+#mybutton{
+    background-color:black;
+    color:white;
+    filter:drop-shadow(10px 10px 10px white); 
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1.25rem;
+}
+#demo2{
+    color:white;
+    padding-top: 1.25rem;
+    margin-left: 1.875rem;
+    font-size:  2.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+#demo3{
+    color:white;
+    padding-top: 1.25rem;
+    margin-left: 1.875rem;
+    font-size:  2.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+#link{
+    font-size: 1.875rem;
+}
+.divider2{
+    width:  62.5rem;
+    height:  0.0625rem;
+    background-color: whitesmoke;
+    display:inline-table;
+    vertical-align: middle;
+
+}
+
+/*contact*/
+#contact{
+    color:white;
+    font-size: 3.125rem;
+    padding-top:2.5rem;
+    margin-left:5rem;
+    font-family:'Chakra Petch', sans-serif;
+}
+.divider3{
+    width:  75rem;
+    height:  0.0625rem;
+    background-color: whitesmoke;
+    display:inline-table;
+    vertical-align: middle;
+}
+#fb{
+    height:5rem;
+    width: 5rem;
+    margin-left: 12.5rem;
+    filter:drop-shadow(10px 10px 10px black);
+}
+#fb1{
+    font-size:2.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-left:1.25rem;
+}
+#phone{
+    height:5rem;
+    width: 5rem;
+    margin-left:12.5rem;
+    filter:drop-shadow(10px 10px 10px black);
+}
+#p2{
+    font-size:2.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+    color:white;
+    padding-left: 1.875rem;
+}
+#email{
+    height:5rem;
+    width:  5rem;
+    margin-left: 12.5rem;
+    filter:drop-shadow(10px 10px 10px black);
+}
+#e1{
+    font-size: 2.5rem;
+    font-family: 'Chakra Petch', sans-serif;
+    color:white;
+    padding-left:  1.875rem;
+}
+#recog{
+    color:white;
+    font-size: 1.25rem;
+    text-align: center;
+}
